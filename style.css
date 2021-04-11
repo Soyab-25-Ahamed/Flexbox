@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    background-color: #EAF0EF;
+    font-size: 16px;
+    color: #000;
+}
+.wrap{
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items:center;
+    flex-direction: row;
+}
+.box{
+   height: 100px;
+    min-width: 100px;
+}
+.one{
+    background-color:salmon;
+}
+.two{
+    background-color: palegreen;
+}
+.three{
+    background-color: skyblue;
+}
+.four{
+    background-color: fuchsia;
+}
